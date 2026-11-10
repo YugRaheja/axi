@@ -1,0 +1,51 @@
+# Simulation outputs
+*.vcd
+*.wlf
+*.vpd
+*.fsdb
+*.log
+*.history
+
+# Compiled objects
+work/
+*.o
+*.so
+*.d
+
+# Synopsys VCS
+simv
+simv.daidir/
+csrc/
+DVEfiles/
+ucli.key
+inter.vpd
+
+# Cadence Xcelium
+xcelium.d/
+xrun.log
+xrun.history
+*.shm/
+cov_work/
+
+# Mentor/Siemens QuestaSim/ModelSim
+transcript
+vsim.wlf
+modelsim.ini
+*.vstf
+
+# Vivado
+*.jou
+*.str
+*.xpr
+.Xil/
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+
+# General
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
